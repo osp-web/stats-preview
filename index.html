@@ -46,7 +46,11 @@
     </div>
 
     <div class="image-container">
-        <img class ="fill" src="images/image-header-desktop.jpg" alt="headerimage" >
+        <picture>
+            <source media ="(min-width: 376px)" srcset ="images/image-header-desktop.jpg">
+            <source media="(max-width:375px)" srcset ="images/image-header-mobile.jpg">
+            <img " src="images/image-header-desktop.jpg" alt="headerimage" >
+        </picture>
     </div>  
 
 </div>
